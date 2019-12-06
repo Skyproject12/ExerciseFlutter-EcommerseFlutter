@@ -10,7 +10,7 @@ void main(){
           // mengeset color container white
 //          color:Colors.white,
           // give text
-          child: Column(
+          child: Row(
             children: <Widget>[
               Text('hello one'),
               Text('hello two'),
