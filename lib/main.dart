@@ -1,22 +1,20 @@
-import'package:flutter/material.dart'; 
-void main(){ 
+import'package:flutter/material.dart';
+
+void main() {
   runApp(
-    new MaterialApp(
-      home: GridView.count(crossAxisCount: 3,
-        children: <Widget>[
-          Text('one'),
-          Text('two'),
-          Text('three'),
-          Text('one'),
-          Text('two'),
-          Text('three'),
-          Text('one'),
-          Text('two'),
-          Text('three'),
-          Text('one'),
-          Text('two'),
-          Text('three'),
-        ],)
-    )
+      MaterialApp(
+        // mendefinisikan home
+          home: Container(
+            color: Colors.white,
+              child: Column(
+                children:<Widget>[
+                  // insert text
+                  Text('user'),
+                  // insert icon
+                  Icon(Icons.person),
+                ]
+              )
+          )
+      )
   );
 }
